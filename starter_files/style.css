@@ -1,0 +1,130 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+
+
+
+body{
+    width:1280px;
+    background-color:#dddddd;
+}
+#site_header{
+    background-color:#ff8523;
+    width:800px;
+    height:125px;
+    margin-left:200px;
+}
+#logo img{
+    margin-bottom:8px;
+}
+.main_navigation a{
+    border:1px solid white;
+    margin-left:10px;
+    color:white;
+    padding:5px 10px 5px 10px;
+    text-decoration:none;
+    font-size: 10px;
+    border-radius:5px;
+}
+#page_content{
+    background-color:white;
+    width:800px;
+    padding:10px 10px 10px 10px;
+    margin-left:200px;
+    border:1px solid #ff8523;
+
+}
+h2{
+    font-family:Helvetica, Arial, sans-serif;
+    color:#1fabe5;
+    font-size:14pt;
+ }
+h3{
+    font-family:'Helvetica';
+    color:#1fabe5;
+    size:8px;
+  }
+ul li
+{
+    font-family:'Helvetica';
+    font-size:14px;
+    font-weight:bold;
+    padding:3px;
+}
+table {
+    border-collapse: collapse;
+    border:1px solid #1fabe5;
+}
+thead{
+    background-color:#1fabe5;
+    border:1px solid #046c97;
+    color:white;
+    font-family:'Helvetica';
+    size:4px;
+    padding:10px 30px 10px 5px;
+}
+thead td{
+    border:1px solid #046c97;
+}
+td{
+    border:1px solid #1fabe5;
+    font-family:'Helvetica';
+    font-size:12px;
+    padding:10px 30px 10px 5px;
+}
+td img{
+    height: 40px;
+    width: 40px;
+    background-size:cover;
+    justify-content: center;
+}
+form{
+    background-color:lightgray;
+    padding:15px;
+    width:700px;
+    border-radius:5px;
+}
+.name{
+    background-color:#ff8523;
+    padding:25px;
+    height: 10px;
+    width:650px;
+    border-radius:5px;
+
+}
+.name label{
+    color:white;
+    padding:25px;
+    align-content:center;
+}
+.city_container{
+    font-family:'Helvetica';
+    font-size: 12px;
+    font-weight:bold;
+    margin-left:-3px;
+    padding:10px 10px 10px 10px;
+}
+label{
+    font-size:12px;
+}
+textarea{
+    margin-top:10px;
+    border:1px solid #1fabe5;
+}
+#submit_button {
+    background-color:#1fabe5;
+    color:white;
+    padding:5px 10px 5px 10px;
+    border-radius:5px;
